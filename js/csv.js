@@ -60,6 +60,9 @@ function calculate() {
   finaltable.innerHTML = r.join('\n');
 }
 
+//     <script type="text/javascript" src="lib/underscore-min.js"></script>
+//     <script src="lib/jquery-1.11.1.min.js"></script>
+
 window.onload = function() {
   // If the browser supports localStorage and we have some stored data
   if (window.localStorage && localStorage.original) {
